@@ -1,0 +1,299 @@
+.container
+{
+  height: 100vh;
+  width: 100%;
+  background-color: #161616;
+  color: white;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  background: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/SAKGwKC/medical-background-with-loop_n26ve-_yg_thumbnail-1080_05.png);
+}
+
+
+.form 
+{
+  background-color:tranparent;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  align-items: center;
+  margin:40%;
+}
+
+.inp 
+{
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  text-indent: 20px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+.btn 
+{
+  padding: 10px 50px;
+  border-radius: 5px;
+  background-color: #167ce0;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid #167ce0;
+  cursor: pointer;
+}
+
+.btn:hover
+{
+  background-color: #5395d7;
+}
+
+a 
+{
+  color: #167ce0;
+  text-decoration: none;
+}
+
+
+.not-found 
+{
+  width: 100%;
+  text-align: center;
+ 
+} 
+
+
+.success
+{
+  background-color: lightgreen;
+  color: green;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.error
+{
+  background-color: lightpink;
+  color: red;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.invisible-msg 
+{
+  
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0;
+}
+
+
+/* track page css  */
+
+
+.search 
+{
+  width: 100%;
+  padding: 10px 0px;
+  /* background-color: gray; */
+  /* border-radius: 5px; */
+}
+
+.track-container 
+{
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.search-inp
+{
+  width: 100%;
+  height: 45px;
+  text-indent: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-size: 18px;
+}
+
+.search 
+{
+  position: relative;
+}
+
+.search-results
+{
+  width: 100%;
+  padding: 10px 5px;
+  background-color: gray;
+  margin-top: 10px;
+  position:absolute;
+}
+
+.food 
+{
+  width: 100%;
+  padding: 30px 0px;
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+
+.food-img 
+{
+  width: 100%;
+  height: auto;
+  /* background-color: blue; */
+ 
+  border-radius: 5px;
+}
+
+.food-image 
+{
+  width: 100%;
+}
+
+.nutrient{
+  width: 50%;
+  padding: 10px 0px;
+  /* background-color: green; */
+}
+
+.track-control
+{
+  display: flex;
+  width: 100%;
+  column-gap: 2%;
+}
+
+.track-control > .inp
+{
+  width: 68%;
+}
+
+.track-control > .btn 
+{
+  width: 30%;
+  padding:10px 0px;
+}
+
+
+.diet-container
+{
+  align-items: flex-start;
+  row-gap: 20px;
+  flex-direction: column;
+}
+
+.item 
+{
+  width: 100%;
+  padding: 20px;
+  background-color: #2f2f2f;
+}
+.nav h1{
+  display:flex;
+  
+}
+.nav
+{
+width: 100%;
+padding: 20px;
+background-color:rgb(140, 212, 140);
+display:flex;
+column-gap:50%;
+}
+
+.nav>ul{
+display: flex;
+column-gap: 30px;
+row-gap:50px;
+list-style-type: none;
+padding-right:70%;
+}
+
+.link
+{
+text-decoration: none;
+margin:20px;
+color:white;
+font-size:120%;
+}
+
+.medical
+{
+padding: 10px;
+color: white;
+
+}
+
+.precautions
+{
+padding: 20px;
+width: 100%;
+background-color: lightgray;
+display: flex;
+column-gap: 2%;
+}
+
+
+
+.slogans
+{
+padding: 20px;
+width: 100%;
+background-color: lightgray;
+display: flex;
+column-gap: 2%;
+}
+
+.profile{
+  
+  margin:30px;
+}
+.profile-info1{
+ padding:40px;
+ margin:30px;
+ background-color:rgb(210, 230, 191);
+ width: 50%;
+ font-size:150%;
+}
+
+.update{
+  margin:50px;
+  width:10%;
+  background-color: rgb(140, 212, 140);
+  font-size:100%;
+  color:white;
+  border-radius:5px;
+}
+
+.patient-history{
+  display: flex;
+  flex-direction: column;
+  margin-left:15px;
+
+}
+.precautions{
+  align-items: center;
+  column-gap:100px;
+  display:flex;
+}
+.slogans {
+ display:flex;
+ width:100%;
+ height: 100%;
+  flex-direction: column;
+  margin-left:5px;
+  column-gap:100px;
+}
+.slo{
+  column-gap: 30px;
+}
